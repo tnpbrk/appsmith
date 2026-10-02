@@ -1,0 +1,2 @@
+DELETE FROM public."shoes"
+  WHERE "shoe_id" = {{data_table.triggeredRow.shoe_id}};

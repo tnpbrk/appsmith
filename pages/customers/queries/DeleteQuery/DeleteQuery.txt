@@ -1,0 +1,2 @@
+DELETE FROM public."customers"
+  WHERE "customer_id" = {{data_table.triggeredRow.customer_id}};

@@ -1,0 +1,4 @@
+UPDATE public."sells" SET
+		"sell_date" = '{{update_form.fieldState.sell_date.isVisible ? update_form.formData.sell_date : update_form.sourceData.sell_date}}',
+    "customer_id" = '{{update_form.fieldState.customer_id.isVisible ? update_form.formData.customer_id : update_form.sourceData.customer_id}}'
+WHERE "sell_id" = {{data_table.selectedRow.sell_id}};

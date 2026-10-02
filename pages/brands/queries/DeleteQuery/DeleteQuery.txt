@@ -1,0 +1,2 @@
+DELETE FROM public."brands"
+  WHERE "brand_id" = {{data_table.triggeredRow.brand_id}};

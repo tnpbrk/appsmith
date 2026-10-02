@@ -1,0 +1,12 @@
+INSERT INTO public."shoes" (
+	"shoe_name",
+	"brand_id",
+	"shoe_type",
+	"shoe_price",
+	"image_url")
+VALUES (
+	'{{insert_form.formData.shoe_name}}',
+	'{{insert_form.formData.brand_id}}',
+	'{{insert_form.formData.shoe_type}}',
+	'{{insert_form.formData.shoe_price}}',
+	'{{insert_form.formData.image_url}}');

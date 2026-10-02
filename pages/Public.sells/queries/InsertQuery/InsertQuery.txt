@@ -1,0 +1,8 @@
+INSERT INTO public."sells" (
+
+	"sell_date",
+	"customer_id")
+VALUES (
+
+	'{{insert_form.formData.sell_date}}',
+	'{{insert_form.formData.customer_id}}');

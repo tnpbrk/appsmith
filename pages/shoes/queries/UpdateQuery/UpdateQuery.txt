@@ -1,0 +1,7 @@
+UPDATE public."shoes" SET
+		"shoe_name" = '{{update_form.fieldState.shoe_name.isVisible ? update_form.formData.shoe_name : update_form.sourceData.shoe_name}}',
+		"brand_id" = '{{update_form.fieldState.brand_id.isVisible ? update_form.formData.brand_id : update_form.sourceData.brand_id}}',
+    "shoe_type" = '{{update_form.fieldState.shoe_type.isVisible ? update_form.formData.shoe_type : update_form.sourceData.shoe_type}}',
+		"shoe_price" = '{{update_form.fieldState.shoe_price.isVisible ? update_form.formData.shoe_price : update_form.sourceData.shoe_price}}',
+		"image_url" = '{{update_form.fieldState.image_url.isVisible ? update_form.formData.image_url : update_form.sourceData.image_url}}'
+WHERE "shoe_id" = {{data_table.triggeredRow.shoe_id}};

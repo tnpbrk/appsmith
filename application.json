@@ -1,0 +1,29 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F1DEFF",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "brands",
+      "isDefault": true
+    },
+    {
+      "id": "suppliers",
+      "isDefault": false
+    },
+    {
+      "id": "customers",
+      "isDefault": false
+    },
+    {
+      "id": "shoes",
+      "isDefault": false
+    },
+    {
+      "id": "Public.sells",
+      "isDefault": false
+    }
+  ]
+}

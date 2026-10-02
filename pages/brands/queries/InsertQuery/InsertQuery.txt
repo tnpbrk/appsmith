@@ -1,0 +1,6 @@
+INSERT INTO public."brands" (
+	"brand_name",
+	"country")
+VALUES (
+	'{{insert_form.formData.brand_name}}',
+	'{{insert_form.formData.country}}');

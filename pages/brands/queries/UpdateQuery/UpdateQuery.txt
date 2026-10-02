@@ -1,0 +1,4 @@
+UPDATE public."brands" SET
+		"brand_name" = '{{update_form.fieldState.brand_name.isVisible ? update_form.formData.brand_name : update_form.sourceData.brand_name}}',
+		"country" = '{{update_form.fieldState.country.isVisible ? update_form.formData.country : update_form.sourceData.country}}'
+WHERE "brand_id" = {{data_table.triggeredRow.brand_id}};
